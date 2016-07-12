@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<title>HW-6 - Zazor</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="clearfix">
+				<div class="phones">
+					<span>(044)123-45-67 (044)567-89-10</span>
+				</div>
+				<div class="entry">
+					<form action="#" method="POST">
+						<input type="text" name="login" placeholder="логин" required>
+						<input type="password" name="password" placeholder="пароль" required>
+						<input type="submit" class="enter" value="вход">
+					</form>			
+					<a href="#" class="registration">регистрация</a>
+					<a href="#" class="forgot">забыли пароль?</a>
+				</div>
+				<div class="navi">
+					<a title="Главная" href="#" class="home">
+						<img src="img/navi-home.png" alt="">
+					</a>
+					<a title="Карта сайта" href="#" class="map">
+						<img src="img/navi-map.png" alt="">
+					</a>
+					<a title="Почта" href="#" class="email">
+						<img src="img/navi-email.png" alt="">
+					</a>
+				</div>
+			</header>
+			<figure class="blick">
+				<img src="img/blick.jpg" alt="zazor.com.ua">
+				<div class="site-zazor">
+					<a href="#"><img src="img/zazor.png" alt=""></a>
+				</div>
+			</figure>
+			<nav class="clearfix">
+			<div class="koshik">
+			  <p>товаров: <span>0&nbsp;&nbsp;&nbsp;</span>
+			  на сумму: <span>&nbsp;&nbsp;0,00 грн.</span></p>
+			</div>
+
+				<ul>
+					<li><a href="#">О КОМПАНИ</a></li>
+					<li><a href="#">ОПЛАТА</a></li>
+					<li><a href="#">ДОСТАВКА</a></li>
+					<li><a href="#">СТАТЬИ</a></li>
+					<li><a href="#">КОНТАКТЫ</a></li>
+				</ul>
+			</nav>
+			
+			<aside class="search-forms clearfix">
+				<div class="auto-search">
+					<div class="disks">
+						
+					</div>
+					<div class="tires">
+						
+					</div>
+					<p class="topic h-left">Поиск по автомобилю</p>
+				</div>
+				<div class="tires-search">
+					<p class="topic">поиск шин</p>
+				</div>
+				<div class="disks-search">
+					<p class="topic">поиск дисков</p>
+				</div>
+			</aside>
+			
+			<div class="clearfix">
+				<aside class="catalog">
+					<h2>Каталог продукции:</h2>
+					<ul>
+						<li>
+							<p>Шины</p>
+							<ul>
+								<li><a href="#">Наименование 1</a></li>
+								<li><a href="#">Наименование 2</a></li>
+								<li><a href="#">Наименование 3</a></li>
+								<li><a href="#">Наименование 4</a></li>
+							</ul>
+						</li>
+						<li>
+							<p>Диски</p>
+							<ul>
+								<li><a href="#">Наименование 1</a></li>
+								<li><a href="#">Наименование 2</a></li>
+								<li><a href="#">Наименование 3</a></li>
+								<li><a href="#">Наименование 4</a></li>
+							</ul>
+						</li>
+						<li>
+							<p>Болты</p>
+							<ul>
+								<li><a href="#">Наименование 1</a></li>
+								<li><a href="#">Наименование 2</a></li>
+								<li><a href="#">Наименование 3</a></li>
+								<li><a href="#">Наименование 4</a></li>
+							</ul>
+						</li>
+					</ul>
+				</aside>
+				
+				<aside class="brands">
+					<h2>Бренды:</h2>
+					<form action="#" method="GET">
+					<ul>
+						<li>
+							<p>Шины</p>
+							<ul>
+								<li><label><input type="checkbox" name="tire" id="tire1">Бренд 1</label></li>
+								<li><label><input type="checkbox" name="tire" id="tire2">Бренд 2</label></li>
+								<li><label><input type="checkbox" name="tire" id="tire3">Бренд 3</label></li>
+							</ul>
+						</li>
+						<li>
+							<p>Диски</p>
+							<ul>
+								<li><label><input type="checkbox" name="disk" id="disk1">Бренд 1</label></li>
+								<li><label><input type="checkbox" name="disk" id="disk2">Бренд 2</label></li>
+								<li><label><input type="checkbox" name="disk" id="disk3">Бренд 3</label></li>
+							</ul>
+						</li>
+					</ul>
+					<input type="submit" value="ВЫБРАТЬ">
+					</form>
+				</aside>
+
+				<main class="goods">
+					<section>				
+						<a href="#">
+						<h3 class="trademark">Goodyear</h3>
+						<figure>
+							<figcaption><p class="model">Ultra Grip Extreme</p></figcaption>
+							<img src="img/tire-01.png" alt="Goodyear - Ultra Grip Extreme">
+						</figure>
+						<p class="price">90.00 <span class="uah">грн.</span></p>
+						</a>
+					</section>
+					<section>
+						<a href="#">
+						<h3 class="trademark">Nokian</h3>
+						<figure>
+							<figcaption><p class="model">Hakkapeliitta R</p></figcaption>
+						<img src="img/tire-02.png" alt="Nokian - Hakkapeliitta R">
+						</figure>				
+						<p class="price">115.00 <span class="uah">грн.</span></p>
+						</a>
+					</section>
+					<section>
+						<a href="#">	
+						<h3 class="trademark">Hankook</h3>
+						<figure>
+							<figcaption><p class="model">K 708 155/65 R14</p></figcaption>
+						<img src="img/tire-03.png" alt="Hankook - K 708 155/65 R14">
+						</figure>				
+						<p class="price">393.00 <span class="uah">грн.</span></p>
+						</a>
+					</section>
+					<section>
+						<a href="#">
+						<h3 class="trademark">Goodyear</h3>
+						<figure>
+							<figcaption><p class="model">Ultra Grip Extreme</p></figcaption>
+							<img src="img/tire-01.png" alt="Goodyear - Ultra Grip Extreme">
+						</figure>
+						<p class="price">90.00 <span class="uah">грн.</span></p>
+						</a>
+					</section>
+					<section>
+						<a href="#">
+						<h3 class="trademark">Nokian</h3>
+						<figure>
+							<figcaption><p class="model">Hakkapeliitta R</p></figcaption>
+						<img src="img/tire-02.png" alt="Nokian - Hakkapeliitta R">
+						</figure>				
+						<p class="price">115.00 <span class="uah">грн.</span></p>
+						</a>
+					</section>
+					<section>
+						<a href="#">
+						<h3 class="trademark">Hankook</h3>
+						<figure>
+							<figcaption><p class="model">K 708 155/65 R14</p></figcaption>
+						<img src="img/tire-03.png" alt="Hankook - K 708 155/65 R14">
+						</figure>				
+						<p class="price">393.00 <span class="uah">грн.</span></p>
+						</a>
+					</section>
+					<section>
+						<a href="#">
+						<h3 class="trademark">Goodyear</h3>
+						<figure>
+							<figcaption><p class="model">Ultra Grip Extreme</p></figcaption>
+							<img src="img/tire-01.png" alt="Goodyear - Ultra Grip Extreme">
+						</figure>
+						<p class="price">90.00 <span class="uah">грн.</span></p>
+						</a>
+					</section>
+					<section>
+						<a href="#">
+						<h3 class="trademark">Nokian</h3>
+						<figure>
+							<figcaption><p class="model">Hakkapeliitta R</p></figcaption>
+						<img src="img/tire-02.png" alt="Nokian - Hakkapeliitta R">
+						</figure>				
+						<p class="price">115.00 <span class="uah">грн.</span></p>
+						</a>
+					</section>
+					<section>
+						<a href="#">
+						<h3 class="trademark">Hankook</h3>
+						<figure>
+							<figcaption><p class="model">K 708 155/65 R14</p></figcaption>
+						<img src="img/tire-03.png" alt="Hankook - K 708 155/65 R14">
+						</figure>				
+						<p class="price">393.00 <span class="uah">грн.</span></p>
+						</a>
+					</section>
+				</main>
+			</div>
+
+			<figure class="firms">
+				<a class="firm-tm" href="#"><img src="img/1-toyo_tires.png" alt=""></a>
+				<a class="firm-tm" href="#"><img src="img/2-bridgestone.png" alt=""></a>
+				<a class="firm-tm" href="#"><img src="img/3-continental_tire.png" alt=""></a>
+				<a class="firm-tm" href="#"><img src="img/4-dooper-tyres.png" alt=""></a>
+				<a class="firm-tm" href="#"><img src="img/5-avon_tyres.png" alt=""></a>
+				<a class="firm-tm" href="#"><img src="img/6-tire_factory.png" alt=""></a>
+				<a class="firm-tm" href="#"><img src="img/7-pirelli.png" alt=""></a>
+				<a class="firm-tm" href="#"><img src="img/8-dunlop.png" alt=""></a>
+			</figure>
+
+			<footer>
+				<ul>
+					<li><a href="#">О компании</a>
+					<li><a href="#">Доставка</a>
+					<li><a href="#">Статьи</a>
+					<li><a href="#">Контакты</a>
+				</ul>
+				<p class="copyright">Создание сайта © Global Vision</p>
+			</footer>
+	
+		</div>
+	</body>
+</html>
