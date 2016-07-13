@@ -335,7 +335,7 @@ aside.catalog ul li p {
 }
 aside.catalog li ul {
 	list-style: circle outside none;
-	margin: 0 0 -3px 37px;
+	margin: 0 0 -3px 60px;
 }
 
 .catalog > ul > li {
@@ -409,7 +409,7 @@ main.goods {
 aside.brands {
 	float: right;
 	width: 181px;
-	margin: 1px 2px 0 0;
+	margin: 3px 2px 0 0;
 }
 aside.brands h2 {
 	margin-bottom: 14px;
@@ -479,6 +479,7 @@ aside.brands input[type=checkbox] {
 	box-shadow: inset 1px 1px 1px 0px rgba(136,136,136,1);
 }
 figure.firms {
+	background: transparent url('../img/firms.png') center no-repeat;
 	width: 100%;
 	margin: 37px auto 24px;
 	text-align: center;
@@ -501,7 +502,7 @@ footer {
 	width: 100%;
 	height: 99px;
 	background-color: #213a4d;
-	padding: 1px 0 0 0;
+	padding: 3px 0 0 0;
 	border: 1px solid #242c3e;
 	border-bottom: 0;
 }
@@ -537,5 +538,5 @@ footer .copyright {
 	font-size: 10px;
 	color: #7f4740;
 	text-align: center;
-	margin-top: 16px;
+	margin-top: 14px;
 }
